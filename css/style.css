@@ -1,0 +1,65 @@
+
+/* google font works sans */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Work+Sans:wght@500;800&display=swap');
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Work Sans'sans-serif;
+}
+/* nav section styles */
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    border: 2x solid red;
+    /* min-height: 100px; */
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-img img{
+    width: 86.041px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 20PX;
+}
+.nav-img h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.nav-img .nav-g{
+    color: #FF42A5;
+}
+.nav-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-content a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.follow-us-on{
+border: none;
+padding: 10px 20px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+.youtube-icon{
+    position: relative;
+    top: 7px;
+    right: 50px;
+}
