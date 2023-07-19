@@ -95,6 +95,10 @@ padding-left: 100px;
 .play-img .extra-img{
   display: none;
 }
+.icon-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .icon-title-container{
   flex-direction: column;
 }
