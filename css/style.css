@@ -234,11 +234,9 @@ margin-bottom: 50px;
 .play-img .extra-img{
     width: 300px;
     border-radius: 8px;
-    /* border: 1px solid #FFF; */
     position: absolute;
-    top: 1800px;
-    left: 750px;
-    /* right: -10px; */
+    top: 1850px;
+    left: 600px;
 }
 .play-img .extra-img img{
     width: 100%;
