@@ -133,13 +133,6 @@ padding-left: 150px;
 }
 
 /* online games sections styles */
-.online-games-container{
-    max-width: 1300px;
-    margin: 50px  auto 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
  .online-games-section{
     background: #ffffff1c;
     margin-top: 50px;
@@ -178,12 +171,19 @@ padding-left: 150px;
     display: block;
     margin: 0 auto;
 }
+
 .grid-container .card p{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
 }
+
+.hidden-content{
+    display: none;
+
+}
+
 
 /* play instant sections styles */
 .instant{

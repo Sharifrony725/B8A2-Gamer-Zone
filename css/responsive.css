@@ -21,8 +21,122 @@
     top: -30px;
 }
 
+.banner-container{
+    flex-direction: column;
+}
+.banner-content{
+    width: 100%;
+}
+.banner-content h3{
+    font-size: 1.5rem;
+}
+.banner-content h4{
+    font-size: 3rem;
+}
+.banner-img{
+    width: 100%;
+}
+.icons{
+text-align: justify;
+padding-left: 100px;
+}
+.icons p{
+    font-size: 16px;
+}
+.banner-btn{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10PX 20PX;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
 
+.online-games-top h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+ .online-games-top p{
+    font-size: 14px;
+    line-height: 10px;
+}
+.grid-container{
+    grid-template-columns:1fr;
+}
+.grid-container .card p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 10px;
+}
 
+.instant-container{
+ flex-direction: column;
+}
+.instant-container .play-content{
+   width: 100%;
+   text-align: center;
+}
+.play-content h3{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 30px;
+}
+.play-content p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center; 
+}
+.instant-container .play-img{
+    width: 100%;
+}
+.play-img .extra-img{
+  display: none;
+}
+.icon-title-container{
+  flex-direction: column;
+}
+.single-item {
+    max-width: 150px;
+}
+.single-item p{
+    font-size: 12px;
+    margin-right: 0px;
+}
+
+.footer-container{
+    max-width: 400px;
+}
+.footer-head{
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+}
+.footer-head h3{
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+}
+.footer-item{
+   flex-direction: column;
+   gap: 10px;
+}
+.footer-item a{
+    font-size: 14px;
+}
+.footer-icon{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 150px;
+}
 
 }
 
