@@ -249,6 +249,7 @@ margin-bottom: 50px;
 /* icon title section styles */
 .icon-title{
     margin-top: 130px;
+    margin-bottom: 50px;
 }
 .icon-title-container{
     max-width: 1300px;
@@ -332,6 +333,12 @@ font-weight: 700;
     justify-content: space-between;
     align-items: center;
 }
+#single-item:hover{
+    background-color: #FFF;
+    color: #F948B2;
+    position: sticky;
+    border: 1px solid #F948B2;
+}
 .footer-item a{
     text-decoration: none;
     color: #fff;
@@ -343,7 +350,7 @@ font-weight: 700;
     margin-top: 20px;
     align-items: center;
     justify-content: space-around;
-    gap: 20px;
+    gap: 30px;
     display: flex;
     width: 40px;
     height: 40px;
